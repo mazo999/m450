@@ -1,0 +1,154 @@
+/* Login-Container */
+.login-container {
+  max-width: 400px;
+  margin: 100px auto; /* Zentriert den Container horizontal und vertikal (mit Abstand von oben) */
+  background-color: #2c3e50;
+  padding: 20px;
+  border-radius: 8px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+  text-align: center;
+}
+
+/* Überschrift */
+.login-container h2 {
+  color: #ffffff;
+  margin-bottom: 20px;
+}
+
+/* Form-Gruppe */
+.form-group {
+  margin-bottom: 15px;
+  text-align: left; /* Label und Input sind linksbündig innerhalb des Containers */
+  width: 100%; /* Nimmt die volle Breite des Containers */
+}
+
+.form-group label {
+  display: block;
+  color: #ffffff;
+  font-weight: bold;
+  margin-bottom: 5px;
+}
+
+.form-group input {
+  width: 100%; /* Nimmt die volle Breite der Form-Gruppe */
+  padding: 10px;
+  border: 1px solid #34495e;
+  border-radius: 4px;
+  background-color: #ecf0f1;
+  font-size: 14px;
+  box-sizing: border-box; /* Verhindert Überlauf */
+  color: #000000;
+}
+
+/* Login-Button */
+.login-button {
+  color: #2c3e50;
+  text-decoration: none;
+  font-weight: bold;
+  font-size: 16px;
+  padding: 8px 12px;
+  transition: color 0.3s, background-color 0.3s;
+  border-radius: 4px;
+  background-color: #ffffff;
+  border: none;
+  cursor: pointer;
+  margin-top: 15px;
+  width: 100%;
+}
+
+.login-button:hover {
+  color: #ffffff;
+  background-color: #3498db;
+}
+
+/* Logout-Button */
+.logout-button {
+  color: #2c3e50;
+  text-decoration: none;
+  font-weight: bold;
+  font-size: 16px;
+  padding: 8px 12px;
+  transition: color 0.3s, background-color 0.3s;
+  border-radius: 4px;
+  background-color: #ffffff;
+  border: none;
+  cursor: pointer;
+  width: auto;
+}
+
+.logout-button:hover {
+  color: #ffffff;
+  background-color: #3498db;
+}
+
+/* Fokus auf Eingabefelder */
+input:focus {
+  outline: none;
+  border-color: #3498db;
+  box-shadow: 0 0 5px #3498db;
+}
+
+/* Signup-Container */
+.signup-container {
+  max-width: 400px;
+  margin: 100px auto;
+  background-color: #2c3e50;
+  padding: 20px;
+  border-radius: 8px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+  text-align: center;
+}
+
+.signup-container h2 {
+  color: #ffffff;
+  margin-bottom: 20px;
+}
+
+.signup-container .form-group {
+  margin-bottom: 15px;
+  text-align: left;
+  width: 100%;
+}
+
+.signup-container .form-group label {
+  display: block;
+  color: #ffffff;
+  font-weight: bold;
+  margin-bottom: 5px;
+}
+
+.signup-container .form-group input {
+  width: 100%;
+  padding: 10px;
+  border: 1px solid #34495e;
+  border-radius: 4px;
+  background-color: #ecf0f1;
+  font-size: 14px;
+  color: #000000;
+  box-sizing: border-box;
+}
+
+.signup-container .message {
+  color: #f39c12;
+  margin-bottom: 15px;
+}
+
+.signup-container button {
+  color: #2c3e50;
+  text-decoration: none;
+  font-weight: bold;
+  font-size: 16px;
+  padding: 8px 12px;
+  transition: color 0.3s, background-color 0.3s;
+  border-radius: 4px;
+  background-color: #ffffff;
+  border: none;
+  cursor: pointer;
+  margin-top: 15px;
+  width: 100%;
+}
+
+.signup-container button:hover {
+  color: #ffffff;
+  background-color: #000000;
+}

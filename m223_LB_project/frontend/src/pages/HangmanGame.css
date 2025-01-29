@@ -1,0 +1,73 @@
+/* Hauptcontainer */
+.hangman-container {
+  text-align: center;
+  font-family: Arial, sans-serif;
+  margin: 20px auto;
+  max-width: 600px;
+}
+
+/* ASCII-Art für Hangman */
+.hangman-art {
+  font-family: monospace;
+  font-size: 1.2rem;
+  margin: 20px 0;
+}
+
+/* Fehlernachricht */
+.error {
+  color: red;
+  font-weight: bold;
+  margin-bottom: 20px;
+}
+
+/* Wortanzeige */
+.word-display {
+  font-size: 1.5rem;
+  margin: 20px 0;
+}
+
+/* Tastaturbereich */
+.keyboard {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 10px;
+  margin-top: 20px;
+}
+
+/* Tasten */
+.keyboard-button {
+  padding: 10px 15px;
+  font-size: 1rem;
+  cursor: pointer;
+  background-color: #007bff;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  transition: background-color 0.3s ease;
+}
+
+.keyboard-button:disabled {
+  background-color: #cccccc;
+  cursor: not-allowed;
+}
+
+.keyboard-button:hover:not(:disabled) {
+  background-color: #0056b3;
+}
+
+/* Reset-Button */
+.reset-button {
+  padding: 10px 20px;
+  font-size: 1.2rem;
+  background-color: #28a745;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.reset-button:hover {
+  background-color: #218838;
+}

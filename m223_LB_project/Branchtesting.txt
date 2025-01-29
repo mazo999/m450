@@ -1,0 +1,3 @@
+Welcome to the small test to make a branch and merge it with the main branch.
+
+hope it works pretty please.

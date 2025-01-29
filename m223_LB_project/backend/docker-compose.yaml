@@ -1,0 +1,17 @@
+services:
+ mysql-db:
+    image: mysql:8.0 # Specify MySQL version here
+    container_name: mysql-hangman-db
+    environment:
+      MYSQL_ROOT_PASSWORD: password
+      MYSQL_DATABASE: hangman
+      MYSQL_USER: user
+      MYSQL_PASSWORD: user
+    volumes:
+      - mysql-hangman-data:/var/lib/mysql
+    ports:
+      - "3306:3306" # Expose MySQL on the default port
+
+volumes:
+  mysql-hangman-data:
+
